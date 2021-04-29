@@ -1,0 +1,35 @@
+public class Account {
+	private static int numOfAcc=100;
+	private double balance;
+	private int accountID;
+
+	public Account (){
+		numOfAcc++;
+		accountID = numOfAcc;
+	
+		balance = 0;
+		
+	}
+ 
+	public Account (double bal){
+		numOfAcc++;
+		accountID = numOfAcc;
+		
+		balance = bal;
+	}
+	
+	public double getBal(){
+		return balance;
+	}
+	public int getID(){
+		return accountID;
+	}
+
+	@Override
+	public String toString() {
+		return "Account [balance=" + balance + ", accountID=" + accountID + "]";
+	}
+	
+   
+ 
+}

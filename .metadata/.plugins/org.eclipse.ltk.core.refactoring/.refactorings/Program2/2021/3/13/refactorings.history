@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Homework 4 Task2/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Program2&apos;&#x0D;&#x0A;- Destination element: &apos;Homework 4 Task2/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     NBA.java&#x0D;&#x0A;     NBATeam.java" description="Copy compilation units" destination="=Homework 4 Task2/src&lt;" element1="/src&lt;{NBA.java" element2="/src&lt;{NBATeam.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1616462216229" units="2" version="1.0"/>
+</session>

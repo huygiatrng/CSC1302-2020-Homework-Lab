@@ -1,0 +1,11 @@
+
+public class Client {
+
+	public static void main(String[] args) {
+		Square square1 = new Square(3,7);
+		Square square2 = new Square(9);
+		
+
+	}
+
+}

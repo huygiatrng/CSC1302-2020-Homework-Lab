@@ -1,0 +1,30 @@
+
+public class Square {
+	private int x,y, sideLength;
+	
+	public Square(int inx,int iny) {
+		x = inx;
+		y = iny;
+		sideLength = 5;
+	}
+	
+	public Square(int side) {
+		x = 0;
+		y = 0;
+		sideLength = side;
+	}
+	
+	public int getX() {
+		return x;
+	}
+	
+	public int getY() {
+		return y;
+	}
+	
+	public int getSide() {
+		return sideLength;
+	}
+	
+	
+}

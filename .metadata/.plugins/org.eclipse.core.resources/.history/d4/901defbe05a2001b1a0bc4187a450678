@@ -1,0 +1,13 @@
+
+public class Client {
+
+	public static void main(String[] args) {
+		Square square1 = new Square(3,7);
+		Square square2 = new Square(9);
+		System.out.println("Square 1:\n"+square1);
+		System.out.println("Square 2:\n"+square2);
+		Square square3 = new Square(); // we have to create another constructor for Square class when there is no parameter
+		System.out.println("Square 3:\n"+square3);
+	}
+
+}
